@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "206861137750",
+    "project_id": "wi-fi-based-indoor-positioning",
+    "storage_bucket": "wi-fi-based-indoor-positioning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206861137750:android:4229b0f865b058fcc708f7",
+        "android_client_info": {
+          "package_name": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206861137750-fceevqj2b933r5nir1ccl565mea7vd1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQihrskn8Tg_KxOFdg96yRQBTVk5ExqcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206861137750-fceevqj2b933r5nir1ccl565mea7vd1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
