@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -50,9 +51,11 @@ public class MainActivity extends AppCompatActivity {
                 .add(user)
                 .addOnSuccessListener(documentReference -> {
                     Log.d("dd", "DocumentSnapshot added with ID: " + documentReference.getId());
+                    Toast.makeText(this, "DocumentSnapshot added with ID: " + documentReference.getId(), Toast.LENGTH_SHORT);
                 })
                 .addOnFailureListener(e -> {
                     Log.w("dd", "Error adding document", e);
+                    Toast.makeText(this, "Error adding document", Toast.LENGTH_SHORT);
                 });
 
     }
