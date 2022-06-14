@@ -154,44 +154,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 	}
 
-    public boolean updateDatabase(JSONArray buildings) throws JSONException {
-        Gson gson=new Gson();
-
-        for(int i=0;i<buildings.length();i++){
-            JSONObject building=buildings.getJSONObject(i);
-            String building_id=building.getString("building_id");
-
-            ArrayList<PositionData> readings= null;
-            ArrayList<Router> friendlyWifis=null;
-
-
-
-            try {
-               Log.d("Readings",building.get("readings").toString());
-
-                readings = gson.fromJson(building.get("readings").toString(),new TypeToken<ArrayList<PositionData>>() {
-                }.getType());
-                friendlyWifis=gson.fromJson(building.get("friendly_wifis").toString()
-                        ,new TypeToken<ArrayList<Router>>() {
-                }.getType());
-                deleteBuilding(building_id);
-                for(int j=0;j<readings.size();j++){
-                    addReadings(building.getString("building_id"),readings.get(j));
-                }
-                addFriendlyWifis(building.getString("building_id"),friendlyWifis);
-
-            } catch (JSONException e) {
-                return false;
-            }
-
-
-
-        }
-        return true;
-
-    }
-
-
 	public ArrayList<PositionData> getReadings(String building_id) {
 		HashMap<String, PositionData> positions = new HashMap<String, PositionData>();
 		SQLiteDatabase db = getReadableDatabase();

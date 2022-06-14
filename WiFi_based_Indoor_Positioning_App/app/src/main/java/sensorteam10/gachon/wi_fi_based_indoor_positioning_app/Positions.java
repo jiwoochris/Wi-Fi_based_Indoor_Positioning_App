@@ -62,7 +62,6 @@ public class Positions extends Activity {
     private List<PositionData> positionsData;
     private PositionData positionData;
     private String building;
-    Gson gson;
 
     @SuppressWarnings("null")
     @Override
@@ -83,7 +82,6 @@ public class Positions extends Activity {
         calibrate = (Button) findViewById(R.id.calibratebutton);
         finish = (Button) findViewById(R.id.finish);
         positionsList = (ListView) findViewById(R.id.positionslist);
-        gson = new Gson();
         resultsText = "";
 
         positionCount = 0;

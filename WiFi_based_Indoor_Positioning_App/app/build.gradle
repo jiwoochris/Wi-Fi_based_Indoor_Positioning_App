@@ -6,7 +6,7 @@ android {
 
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.example.indoorpositioning"
+        applicationId 'sensorteam10.gachon.wi_fi_based_indoor_positioning_app'
         minSdkVersion 14
         targetSdkVersion 28
     }

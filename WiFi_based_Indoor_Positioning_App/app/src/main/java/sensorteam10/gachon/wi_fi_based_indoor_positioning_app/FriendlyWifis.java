@@ -72,9 +72,6 @@ public class FriendlyWifis extends Activity {
 
 				}
 
-
-
-				
 			}
 		});
 		 wifisList.setOnItemLongClickListener(new OnItemLongClickListener() {
