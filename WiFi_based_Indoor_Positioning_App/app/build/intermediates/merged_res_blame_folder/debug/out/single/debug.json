@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-v21_button_press_auth.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-v21/button_press_auth.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_n1.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/n1.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_notebook.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/notebook.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable_button_press_auth.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable/button_press_auth.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-v21_button_press_user.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-v21/button_press_user.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable_button_shape_scan.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable/button_shape_scan.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-v21_button_shape_scan.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-v21/button_shape_scan.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-xxhdpi_gachon.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-xxhdpi/gachon.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/layout_locate.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/layout/locate.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_search.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/search.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/layout_positions.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/layout/positions.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-xhdpi_gachon.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-xhdpi/gachon.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_save.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/save.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_wifi.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/wifi.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_add.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/add.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/layout_scan.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/layout/scan.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-mdpi_gachon.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-mdpi/gachon.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/layout_starting_screen.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/layout/starting_screen.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/menu_main.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/menu/main.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/layout_settings.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/layout/settings.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable_button_press_user.xml.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable/button_press_user.xml"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_update.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/update.png"
+    },
+    {
+        "merged": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-merged_res-9:/drawable-hdpi_start.png.flat",
+        "source": "sensorteam10.gachon.wi_fi_based_indoor_positioning_app-main-11:/drawable-hdpi/start.png"
+    }
+]
