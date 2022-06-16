@@ -122,7 +122,90 @@ public class FirebaseHelper {
 //        return true;
 //
 //    }
+ArrayList<Realtime> DataList;
 
+private void getDocument(Realtime temp) {
+    FirebaseFirestore fb = FirebaseFirestore.getInstance();
+    CollectionReference collectionReference = fb.collection("data");
+    collectionReference.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+        @Override
+        public void onComplete(@NonNull Task<QuerySnapshot> task) {
+            if (task.isSuccessful()) {
+                int i = 0;
+                for (QueryDocumentSnapshot document : task.getResult()) {
+                    //document.getData() or document.getId() 등등 여러 방법으로
+                    //데이터를 가져올 수 있다.
+                    String mac_id = (String) document.getData().get("mac_id");
+                    String position_id = (String) document.getData().get("position_id");
+                    String ssid = (String) document.getData().get("ssid");
+                    int rssi = (int) document.getData().get("rssi");
+
+                    temp.setPosition_id(position_id);
+                    temp.setSsid(ssid);
+                    temp.setMac_id(mac_id);
+                    temp.setRssi(rssi);
+                    Log.d("getDocument", position_id+"  "+mac_id+"  "+ ssid+"  "+rssi);
+                    DataList.add(temp);
+                    i++;
+
+                }
+            }
+        }
+    });
+
+
+}
+
+    private void getData(Realtime temp) {
+        FirebaseFirestore fb = FirebaseFirestore.getInstance();
+        CollectionReference collectionReference = fb.collection("data");
+        collectionReference.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                if (task.isSuccessful()) {
+                    int i = 0;
+                    for (QueryDocumentSnapshot document : task.getResult()) {
+                        //document.getData() or document.getId() 등등 여러 방법으로
+                        //데이터를 가져올 수 있다.
+                        String mac_id = (String) document.getData().get("mac_id");
+                        String position_id = (String) document.getData().get("position_id");
+                        String ssid = (String) document.getData().get("ssid");
+                        int rssi = (int) document.getData().get("rssi");
+
+                        temp.setPosition_id(position_id);
+                        temp.setSsid(ssid);
+                        temp.setMac_id(mac_id);
+                        temp.setRssi(rssi);
+                        Log.d("getDocument", position_id+"  "+mac_id+"  "+ ssid+"  "+rssi);
+                        DataList.add(temp);
+                        i++;
+
+                    }
+                }
+            }
+        });
+
+
+    }
+//public void GetToken() {
+//    FirebaseFirestore fb = FirebaseFirestore.getInstance();
+//    DocumentReference documentReference = fb.collection("Users").document(firebaseUser.getUid());
+//    documentReference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+//        @Override
+//        public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+//            if (task.isSuccessful()) {
+//                DocumentSnapshot document = task.getResult();
+//                if (document != null) {
+//                    if (document.exists()) {
+//                        String a = (String) document.getData().get("token");
+//                        token.setText(" "+a);
+//                        //여기에 찾을 값들 다 넣으면 됨
+//                    }
+//                }
+//            }
+//        }
+//    });
+//}
     public ArrayList<String> getBuildings() {
 
         CollectionReference ref = db.collection(AP_TABLE);

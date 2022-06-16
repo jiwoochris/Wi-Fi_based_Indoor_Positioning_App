@@ -169,15 +169,15 @@ public class FriendlyWifis extends AppCompatActivity {
 
 
 
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, String[] permissions,
-//                                           int[] grantResults) {
-//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-//        if (requestCode == PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION
-//                && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-//            getAndShowScanResults();
-//        }
-//    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                           int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION
+                && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            getAndShowScanResults();
+        }
+    }
 
    public void getAndShowScanResults() {
         results = wifi.getScanResults();

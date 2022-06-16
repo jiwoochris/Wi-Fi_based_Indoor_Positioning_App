@@ -2,12 +2,12 @@ package com.example.wifimanager;
 
 public class Realtime {
     public String building_id ="AI";
-    public String mac_id ;
-    public String position_id;
-    public String ssid ;
-    public double rssi;
+    public String mac_id="" ;
+    public String position_id="";
+    public String ssid="" ;
+    public int rssi=0;
     public Realtime(){}
-    public Realtime(String p, String mac, String ss,double r ) {
+    public Realtime(String p, String mac, String ss,int r ) {
         this.mac_id = mac;
         this.ssid=ss;
         this.position_id=p;
@@ -31,7 +31,7 @@ public class Realtime {
         return ssid;
     }
 
-    public double getRssi() {
+    public int getRssi() {
         return rssi;
     }
 
@@ -51,7 +51,7 @@ public class Realtime {
         this.ssid = ssid;
     }
 
-    public void setRssi(double rssi) {
+    public void setRssi(int rssi) {
         this.rssi = rssi;
     }
 }

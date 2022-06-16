@@ -23,13 +23,14 @@ public class Locate extends AppCompatActivity {
     String building ;
     TextView result;
     Button locate;
-
+    firestore fs;
     public void onCreate(Bundle saveInstanceState) {
         super.onCreate(saveInstanceState);
         setContentView(R.layout.activity_locate);
         db = new DatabaseHelper(this);
         buildings = db.getBuildings();
         locate = (Button) findViewById(R.id.locate);
+        fs = new firestore();
 
         result = (TextView) findViewById(R.id.result);
         arrayAdapter = new ArrayAdapter<String>(this,
