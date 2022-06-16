@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gachon" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="75dp"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="Learn"
+            android:id="@+id/learn_button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClick"
+            android:background="@drawable/button_press_auth"
+            android:textColor="#E91E63"
+            android:drawableLeft="@drawable/search"
+            android:paddingStart="15dp"
+            android:paddingRight="15dp"/>
+
+        <Button
+            android:layout_marginTop="35dp"
+            android:id="@+id/locate_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Locate"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/locate_button"
+            android:layout_alignLeft="@+id/locate_button"
+            android:layout_alignStart="@+id/locate_button"
+            android:background="@drawable/button_press_user"
+            android:textColor="#2196F3"
+            android:drawableLeft="@drawable/notebook"
+            android:paddingStart="15dp"
+            android:paddingRight="15dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

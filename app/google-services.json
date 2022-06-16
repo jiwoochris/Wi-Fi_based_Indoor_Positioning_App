@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "156759428588",
+    "project_id": "sensorterm",
+    "storage_bucket": "sensorterm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156759428588:android:6a6e9f0bfdec8f27f6c4c9",
+        "android_client_info": {
+          "package_name": "com.example.indoorpositioning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156759428588-01s59n2rsane12mbgml6bp5bsu1jm5q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYcVefrh9334XWPXP3wumM6ejj5X9JDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156759428588-01s59n2rsane12mbgml6bp5bsu1jm5q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156759428588:android:3566a4b1ddd21fb8f6c4c9",
+        "android_client_info": {
+          "package_name": "com.example.wifimanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156759428588-01s59n2rsane12mbgml6bp5bsu1jm5q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYcVefrh9334XWPXP3wumM6ejj5X9JDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156759428588-01s59n2rsane12mbgml6bp5bsu1jm5q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
