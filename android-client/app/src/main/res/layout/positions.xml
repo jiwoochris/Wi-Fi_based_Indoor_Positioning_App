@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/position_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:backgroundTint="#E91E63"
+            android:ems="10"
+            android:hint="Enter a new position name and calibrate">
+
+            <requestFocus />
+        </EditText>
+        <Button
+            android:id="@+id/friendly_wifis_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/button_press_auth"
+            android:drawableLeft="@drawable/wifi"
+            android:enabled="true"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Find near by wi-fis"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:layout_marginTop="6dp"
+            android:id="@+id/calibratebutton"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/button_press_auth"
+            android:drawableLeft="@drawable/search"
+            android:enabled="false"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="calibrate"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_press_auth"
+            android:drawableLeft="@drawable/update"
+            android:enabled="false"
+            android:onClick="onClick"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="update"
+            android:textColor="#E91E63" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/positionslist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#E91E63"
+            android:dividerHeight="0.1dp"></ListView>
+
+    </LinearLayout>
+</LinearLayout>
